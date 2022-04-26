@@ -1,0 +1,31 @@
+/*This is a external style sheet  */
+p{
+    color:blue;
+    font-size: 13px;
+}
+
+body{
+    
+    background-image: url("images_css/small-1.png");
+    background-repeat: no-repeat;
+}
+/*
+ background: black  url("images_css/small-1.png") no-repeat; 
+This is short-hand way of writing the properites*/
+div{
+    
+    background-color: aquamarine;
+}
+/* for id begin with a "#" symbol followed by the id name */
+#cssexample{
+    color: blue;
+}
+/* to use a clas for a particular tag, specify by using the TagName.Class_name */
+h1.red{
+    color: red;
+}
+/* we can group selectors by seperating using a "," and apply the same properties to all the selectors mentioned */
+h2,h3{
+    color: darkgreen;
+    text-align: center;
+}

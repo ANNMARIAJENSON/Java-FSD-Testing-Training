@@ -1,0 +1,28 @@
+/*This is a external style sheet  */
+p{
+    color:red;
+    font-size: 13px;
+}
+
+body{
+    
+    background-color:aquamarine;
+}
+
+div{
+    
+    background-color: aquamarine;
+}
+/* for id begin with a "#" symbol followed by the id name */
+#cssexample{
+    color: blue;
+}
+/* to use a clas for a particular tag, specify by using the TagName.Class_name */
+h1.red{
+    color: red;
+}
+/* we can group selectors by seperating using a "," and apply the same properties to all the selectors mentioned */
+h2,h3{
+    color: darkgreen;
+    text-align: center;
+}
